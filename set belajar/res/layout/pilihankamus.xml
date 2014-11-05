@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menukanak2"
+    android:gravity="center" >
+
+    <ImageButton
+        android:id="@+id/huruf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/abcbutton" />
+
+    <ImageButton
+        android:id="@+id/buah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/huruf"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/buah2anbutton" />
+
+    <ImageButton
+        android:id="@+id/nombor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buah"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/buttonnum" />
+
+    <ImageButton
+        android:id="@+id/haiwan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nombor"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/haiwanbutton" />
+
+    <ImageButton
+        android:id="@+id/warna"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/haiwan"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/warnabutton" />
+
+</RelativeLayout>

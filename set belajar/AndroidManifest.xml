@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.setpembelajaran"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo_kamus"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.lab2_t1t2.MenuUtama"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+         <activity android:name="com.example.lab2_t1t2.PilihanKamus"/>
+         <activity android:name="com.example.lab2_t1t2.ABC"/>
+         <activity android:name="com.example.lab2_t1t2.A"/>
+         <activity android:name="com.example.lab2_t1t2.B"/>
+         <activity android:name="com.example.lab2_t1t2.C"/>
+         <activity android:name="com.example.lab2_t1t2.D"/>
+         <activity android:name="com.example.lab2_t1t2.E"/>
+         <activity android:name="com.example.lab2_t1t2.F"/>
+         <activity android:name="com.example.lab2_t1t2.G"/>
+         <activity android:name="com.example.lab2_t1t2.H"/>
+         <activity android:name="com.example.lab2_t1t2.I"/>
+         <activity android:name="com.example.lab2_t1t2.J"/>
+         <activity android:name="com.example.lab2_t1t2.K"/>
+         <activity android:name="com.example.lab2_t1t2.L"/>
+         <activity android:name="com.example.lab2_t1t2.M"/>
+         <activity android:name="com.example.lab2_t1t2.N"/>
+         <activity android:name="com.example.lab2_t1t2.O"/>
+         <activity android:name="com.example.lab2_t1t2.P"/>
+         <activity android:name="com.example.lab2_t1t2.Q"/>
+         <activity android:name="com.example.lab2_t1t2.R_R"/>
+         <activity android:name="com.example.lab2_t1t2.S"/>
+         <activity android:name="com.example.lab2_t1t2.T"/>
+         <activity android:name="com.example.lab2_t1t2.U"/>
+         <activity android:name="com.example.lab2_t1t2.V"/>
+         <activity android:name="com.example.lab2_t1t2.W"/>
+         <activity android:name="com.example.lab2_t1t2.X"/>
+         <activity android:name="com.example.lab2_t1t2.Y"/>
+         <activity android:name="com.example.lab2_t1t2.Z"/>
+         <activity android:name="com.example.lab2_t1t2.BUAH"/>
+         <activity android:name="com.example.lab2_t1t2.Belimbing"/>
+         <activity android:name="com.example.lab2_t1t2.Durian"/>
+         <activity android:name="com.example.lab2_t1t2.Strawbery"/>
+         <activity android:name="com.example.lab2_t1t2.Rambutan"/>
+         <activity android:name="com.example.lab2_t1t2.JambuBatu"/>
+         <activity android:name="com.example.lab2_t1t2.TembikaiSusu"/>
+         <activity android:name="com.example.lab2_t1t2.DurianBelanda"/>
+         <activity android:name="com.example.lab2_t1t2.MataKucing"/>
+         <activity android:name="com.example.lab2_t1t2.Anggur"/>
+         <activity android:name="com.example.lab2_t1t2.Ciku"/>
+         <activity android:name="com.example.lab2_t1t2.Betik"/>
+         <activity android:name="com.example.lab2_t1t2.Nenas"/>
+         <activity android:name="com.example.lab2_t1t2.Epal"/>
+         <activity android:name="com.example.lab2_t1t2.Satu"/>
+         <activity android:name="com.example.lab2_t1t2.Dua"/>
+         <activity android:name="com.example.lab2_t1t2.Tiga"/>
+         <activity android:name="com.example.lab2_t1t2.Empat"/>
+         <activity android:name="com.example.lab2_t1t2.Lima"/>
+         <activity android:name="com.example.lab2_t1t2.Enam"/>
+         <activity android:name="com.example.lab2_t1t2.Tujuh"/>
+         <activity android:name="com.example.lab2_t1t2.Lapan"/>
+         <activity android:name="com.example.lab2_t1t2.Sembilan"/>
+         <activity android:name="com.example.lab2_t1t2.Sepuluh"/>
+         <activity android:name="com.example.lab2_t1t2.Biru"/>
+         <activity android:name="com.example.lab2_t1t2.Coklet"/>
+         <activity android:name="com.example.lab2_t1t2.Hijau"/>
+         <activity android:name="com.example.lab2_t1t2.Hitam"/>
+         <activity android:name="com.example.lab2_t1t2.Merah"/>
+         <activity android:name="com.example.lab2_t1t2.Putih"/>
+         <activity android:name="com.example.lab2_t1t2.Ungu"/>
+         <activity android:name="com.example.lab2_t1t2.Kuning"/>
+         <activity android:name="com.example.lab2_t1t2.MerahJambu"/>
+         <activity android:name="com.example.lab2_t1t2.WARNA"/>
+         <activity android:name="com.example.lab2_t1t2.NOMBOR"/>
+         <activity android:name="com.example.lab2_t1t2.Ayam"/>
+         <activity android:name="com.example.lab2_t1t2.Ikan"/>
+         <activity android:name="com.example.lab2_t1t2.Itik"/>
+         <activity android:name="com.example.lab2_t1t2.Ular"/>
+         <activity android:name="com.example.lab2_t1t2.Kuda"/>
+         <activity android:name="com.example.lab2_t1t2.Harimau"/>
+         <activity android:name="com.example.lab2_t1t2.Zirafah"/>
+         <activity android:name="com.example.lab2_t1t2.Kelawar"/>
+         <activity android:name="com.example.lab2_t1t2.Belalang"/>
+         <activity android:name="com.example.lab2_t1t2.Buaya"/>
+         <activity android:name="com.example.lab2_t1t2.OrangUtan"/>
+         <activity android:name="com.example.lab2_t1t2.Cheetah"/>
+         <activity android:name="com.example.lab2_t1t2.KudaBelang"/>
+         <activity android:name="com.example.lab2_t1t2.Badak"/>
+         <activity android:name="com.example.lab2_t1t2.BurungUnta"/>
+         <activity android:name="com.example.lab2_t1t2.HAIWAN"/>
+        
+       
+         
+    </application>
+   
+
+</manifest>
